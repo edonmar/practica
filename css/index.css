@@ -1,3 +1,4 @@
+$colorBordes: black;
 * {
     margin: 0;
     padding: 0;
@@ -39,7 +40,7 @@ header h1 {
 
 #contenido1 {
     background-color: #f0f0f0;
-    border-top: 2px dotted black;
+    border-top: 2px dotted $colorBordes;
     margin-bottom: 3%;
     margin-top: 1%;
 }
@@ -73,7 +74,7 @@ header h1 {
 }
 
 #contenido2 img {
-    border: 1px solid black;
+    border: 1px solid $colorBordes;
     float: left;
     margin-right: 1em;
     margin-top: 1em;
@@ -94,8 +95,8 @@ header h1 {
 }
 
 #contenido3 {
-    border-top: 2px dotted black;
-    border-bottom: 2px dotted black;
+    border-top: 2px dotted $colorBordes;
+    border-bottom: 2px dotted $colorBordes;
     padding-top: 3%;
     padding-bottom: 3%;
 }
